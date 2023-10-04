@@ -1,0 +1,44 @@
+.chatbox{
+  border: 2px solid rgb(202, 30, 30);
+  border-radius: 5px;
+  margin: 5px 0;
+  padding: 10px;
+  background-color: rgb(184, 113, 26);
+}
+
+.container{
+  display: flex;
+}
+.me .chatbox{
+  background-color:rgb(90, 128, 0);
+}
+
+.container.me{
+  flex-direction: row-reverse;
+}
+
+.btm{
+  position: fixed;
+  width: 100%;
+  bottom: 3px;
+  display: flex;
+  flex-direction: row;
+}
+
+.btm input{
+  padding: 10px 0;
+  flex-grow: 1;
+}
+
+.btm button{
+  padding: 10px 0;
+}
+
+.chat-container{
+  height:75vh;
+  
+  
+  overflow-y: scroll;
+
+  border:1px solid black;
+}
